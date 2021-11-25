@@ -22,10 +22,14 @@ body{
     margin-bottom: 20px;
 }
 
+h2{
+    font-weight: 400;
+}
+
+.txtGray{
+    color: rgb(107, 105, 105);
+}
 /* Left Card Styles */
-/* .profilePicture{
-    background-image: url("img/avatar_hat.jpg");
-} */
 
 .poSRelative{
     position: relative;
@@ -34,13 +38,19 @@ body{
 .janeDoe{
     position: absolute;
     bottom: 5px;
-    left: 1%;
-    font-size: 25px;
+    left: 2%;
+    font-size: 30px;
 }
+
 .mTmBBB{
     margin-top: 10px;
     margin-bottom: 10px;
-    border-bottom: 0.5px solid rgba(187, 186, 186, 0.5);
+    border-bottom: 0.2px solid rgba(187, 186, 186, 0.5);
+}
+
+.progressBottom{
+    margin-top: -2px;
+    margin-bottom: 5px;
 }
 
 /* Right Card Styles */
@@ -51,7 +61,7 @@ body{
 }
 
 .workSubRows{
-    border-bottom: 0.5px solid rgba(187, 186, 186, 0.5);
+    border-bottom: 0.2px solid rgba(187, 186, 186, 0.3);
 }
 
 .workSubRows:last-child{
@@ -59,11 +69,33 @@ body{
 }
 
 h5{
+    font-size: 18px;
     color: rgb(90, 90, 90);
 }
 
 .subheading{
     color: rgb(0,150,136);
+}
+
+.TimeStand{
+    padding-left: -5px;
+    padding-top: 5px;
+}
+
+.current{
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    padding: 2px 5px 2px 5px;
+  }
+
+.imgPadding{
+    padding-left: -30px;
+}
+
+
+.content{
+    font-size: 15px;
 }
 
 

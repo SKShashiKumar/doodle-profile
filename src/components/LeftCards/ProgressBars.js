@@ -2,11 +2,11 @@ const ProgressBars = (props) => {
   return (
     <>
       <div className="row mt-2">
-        <div className="col">
+        <div className="col txtGray">
           <p>{props.Heading}</p>
         </div>
       </div>
-      <div className="row mb-4">
+      <div className="row progressBottom">
         <div className="col">
           <div class="progress" style={{ height: props.Height }}>
             <div

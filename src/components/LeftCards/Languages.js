@@ -2,7 +2,7 @@ import ProgressBars from "./ProgressBars";
 
 const Languages = () => {
     return ( 
-        <div className="container-fluid">
+        <div className="container-fluid mt-5 mb-4">
             <div className="row">
                 <div className="container-fluid">
                     <div className="row">
@@ -13,9 +13,9 @@ const Languages = () => {
                             <h5>Languages</h5>
                         </div>
                     </div>
-                    <ProgressBars Heading="English" Progress="100" Height="25px" Label=""/>               
-                    <ProgressBars Heading="Spanish" Progress="60" Height="25px" Label=""/>               
-                    <ProgressBars Heading="German" Progress="30" Height="25px" Label=""/>                             
+                    <ProgressBars Heading="English" Progress="100" Height="23px" Label=""/>               
+                    <ProgressBars Heading="Spanish" Progress="60" Height="23px" Label=""/>               
+                    <ProgressBars Heading="German" Progress="30" Height="23px" Label=""/>                             
                 </div>
             </div>
         </div>

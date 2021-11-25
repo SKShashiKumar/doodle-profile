@@ -4,7 +4,7 @@ import Skills from "./Skills";
 const LeftCard = () => {
     // const PersonalDetails = ['https://img.icons8.com/ios-glyphs/24/009688/toolbox.png','Designer','https://img.icons8.com/material-rounded/24/009688/home.png','London, UK','https://img.icons8.com/material-rounded/24/009688/mail.png','ex@mail.com','https://img.icons8.com/material-rounded/24/009688/phone.png','1224435534']
     return ( 
-       <div className="container-fluid cardEffect">
+       <div className="container-fluid cardEffect bg-white">
            <div className="row">
               <div className="container-fluid">
                   <div className="row poSRelative">
@@ -18,7 +18,7 @@ const LeftCard = () => {
                                 <img src="https://img.icons8.com/ios-glyphs/20/009688/toolbox.png" alt=""/>
                               </div>
                               <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
-                                  <p className="LeftSubheading">Designer</p>
+                                  <p className="txtGray">Designer</p>
                               </div>
                           </div>
                           <div className="row">
@@ -26,7 +26,7 @@ const LeftCard = () => {
                                 <img src="https://img.icons8.com/material-rounded/20/009688/home.png" alt=""/>
                               </div>
                               <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
-                                  <p className="LeftSubheading">London, UK</p>
+                                  <p className="txtGray">London, UK</p>
                               </div>
                           </div>
                           <div className="row">
@@ -34,7 +34,7 @@ const LeftCard = () => {
                                 <img src="https://img.icons8.com/material-rounded/20/009688/mail.png" alt=""/>
                               </div>
                               <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
-                                  <p className="LeftSubheading">ex@mail.com</p>
+                                  <p className="txtGray">ex@mail.com</p>
                               </div>
                           </div>
                           <div className="row">
@@ -42,7 +42,7 @@ const LeftCard = () => {
                                 <img src="https://img.icons8.com/material-rounded/20/009688/phone.png" alt=""/>
                               </div>
                               <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
-                                  <p className="LeftSubheading">1224435534</p>
+                                  <p className="txtGray">1224435534</p>
                               </div>
                           </div>
                       </div>
