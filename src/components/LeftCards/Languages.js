@@ -13,9 +13,9 @@ const Languages = () => {
                             <h5>Languages</h5>
                         </div>
                     </div>
-                    <ProgressBars Heading="English" Progress="100" Height="25px"/>               
-                    <ProgressBars Heading="Spanish" Progress="60" Height="25px"/>               
-                    <ProgressBars Heading="German" Progress="30" Height="25px"/>                             
+                    <ProgressBars Heading="English" Progress="100" Height="25px" Label=""/>               
+                    <ProgressBars Heading="Spanish" Progress="60" Height="25px" Label=""/>               
+                    <ProgressBars Heading="German" Progress="30" Height="25px" Label=""/>                             
                 </div>
             </div>
         </div>

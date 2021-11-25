@@ -21,7 +21,7 @@ const ProgressBars = (props) => {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              {props.Progress}%
+              {props.Label}
             </div>
           </div>
         </div>

@@ -13,10 +13,10 @@ const Skills = () => {
                             <h5>Skils</h5>
                         </div>
                     </div>
-                    <ProgressBars Heading="Adobe Photoshop" Progress="90" Height="20px"/>               
-                    <ProgressBars Heading="Photography" Progress="80" Height="20px"/>               
-                    <ProgressBars Heading="Adobe Illustrator" Progress="75" Height="20px"/>               
-                    <ProgressBars Heading="Media" Progress="50" Height="20px"/>               
+                    <ProgressBars Heading="Adobe Photoshop" Progress="90" Height="20px" Label="90%"/>               
+                    <ProgressBars Heading="Photography" Progress="80" Height="20px" Label="80%"/>               
+                    <ProgressBars Heading="Adobe Illustrator" Progress="75" Height="20px" Label="75%"/>               
+                    <ProgressBars Heading="Media" Progress="50" Height="20px" Label="50%"/>               
                 </div>
             </div>
         </div>

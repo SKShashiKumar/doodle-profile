@@ -1,4 +1,4 @@
-// import Education from "./RightCards/Education";
+import Education from "./RightCards/Education";
 import Work from "./RightCards/Work";
 
 const RightCard = () => {
@@ -11,7 +11,7 @@ const RightCard = () => {
             </div>
             <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 cardEffect bg-white">
-                    <Work/>
+                    <Education/>
                 </div>
             </div>
         </div>
