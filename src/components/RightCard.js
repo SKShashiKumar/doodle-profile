@@ -1,17 +1,17 @@
-import Education from "./RightCards/Education";
+// import Education from "./RightCards/Education";
 import Work from "./RightCards/Work";
 
 const RightCard = () => {
     return ( 
-        <div className="container-fluid mgLneg bg-success">
+        <div className="container-fluid mgLneg">
             <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 cardEffect bg-white mb-3">
                     <Work/>
                 </div>
             </div>
             <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <Education/>
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 cardEffect bg-white">
+                    <Work/>
                 </div>
             </div>
         </div>

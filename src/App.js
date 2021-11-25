@@ -1,4 +1,4 @@
-import LeftCard from "./components/LeftCard";
+import LeftCard from "./components/LeftCards/LeftCard";
 import RightCard from "./components/RightCard";
 import Footer from "./components/Footer";
 

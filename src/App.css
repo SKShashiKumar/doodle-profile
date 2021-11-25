@@ -1,5 +1,6 @@
 body{
     background-color: whitesmoke;
+    font-family: 'Roboto', monospace;
     color: black;
 }
 .mgLneg{
@@ -11,6 +12,62 @@ body{
     padding: 1% 5% 1% 5%;
 }
 
+.cardEffect{
+    box-shadow: rgb(190, 185, 185) 5px 5px 15px;
+}
+
+.workMainRows{
+    margin-left: -30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Left Card Styles */
+/* .profilePicture{
+    background-image: url("img/avatar_hat.jpg");
+} */
+
+.poSRelative{
+    position: relative;
+}
+
+.janeDoe{
+    position: absolute;
+    bottom: 5px;
+    left: 1%;
+    font-size: 25px;
+}
+.mTmBBB{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 0.5px solid rgba(187, 186, 186, 0.5);
+}
+
+/* Right Card Styles */
+.workSubRows{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 2%;   
+}
+
+.workSubRows{
+    border-bottom: 0.5px solid rgba(187, 186, 186, 0.5);
+}
+
+.workSubRows:last-child{
+    border-bottom: none;
+}
+
+h5{
+    color: rgb(90, 90, 90);
+}
+
+.subheading{
+    color: rgb(0,150,136);
+}
+
+
+/* Footer Styles */
 .footer{
     padding: 10px;
     color: white;
